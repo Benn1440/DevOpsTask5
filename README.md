@@ -18,6 +18,8 @@ VPC (Virtual Private Cloud): A logically isolated section of the AWS cloud where
 # Security Groups:
 Are Virtual firewalls that control inbound and outbound traffic for your instances.
    * Network ACLs (NACLs): Provide an additional layer of security for your VPC by controlling traffic to and from one or more subnets.
+   * A network access control list (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in 
+    order to add a layer of security to your VPC.
 
 # Create VPC:
   * Login to the AWS Console, search for VPC
