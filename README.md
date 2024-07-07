@@ -72,3 +72,16 @@ Are Virtual firewalls that control inbound and outbound traffic for your instanc
   * Private Subnet NACL: Allow inbound traffic from the public subnet. Allow outbound traffic to the public subnet and internet.
 
 <img width="1430" alt="NACL" src="https://github.com/Benn1440/DevOpsTask5/assets/67696393/8bc247e1-ee5c-471f-970b-ec31c955acf0">
+
+# Deploy Instances:
+ * Launch an EC2 instance in the public subnet:
+ * Use the public security group.
+ * Verify that the instance can be accessed via the internet.
+ * Launch an EC2 instance in the private subnet:
+ * Use the private security group.
+ * Verify that the instance can access the internet through the NAT Gateway and can communicate with the public instance.
+
+<img width="671" alt="Instances" src="https://github.com/Benn1440/DevOpsTask5/assets/67696393/b867ffb8-7b5f-46c9-becb-3705bf21dcbe">
+
+
+
